@@ -1,0 +1,139 @@
+:root{
+    --color-main: #fff;
+    --color-title: #000;
+    --color-brand: #FF6336;
+    --color-shadow: rgba(0, 0, 0, 0.3);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-title);
+}
+
+header{
+    border-bottom: 1px solid var(--color-shadow);
+}
+
+.menu{
+    align-items: center;
+    justify-content: space-between;
+    display: inline-flex;
+    width: 1440px;
+}
+
+.menu-link li{
+    display: inline-block;
+}
+
+.menu-link{
+    display: flex;
+    align-items:center;
+    margin: 34px 51px;
+}
+
+.menu-link-items{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item{
+    margin-right: 42px;
+    font-size: 15px;
+    line-height: 1.33;
+}
+
+.menu-button li{
+    display: inline-block;
+}
+
+.menu-button{
+    display: flex;
+    align-items:center;
+    margin: 25px 51px; 
+}
+
+.menu-button-items{
+    margin: 0;
+    padding: 0;
+}
+
+.button-link{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2.81;
+    color: var(--color-title);
+    background-color: var(--color-main);
+    margin-left: 10px;
+    border: 1px solid var(--color-shadow);
+    padding: 16px 36px;
+}
+
+.most-button{
+    color: var(--color-main);
+    padding: 16px 21px;
+    background-color: var(--color-brand);
+    border: 1px solid var(--color-brand);
+}
+
+.logo{
+    margin-right: 51px;
+}
+
+.main-section{
+    display: flex;
+    margin: 98px 75px 0px 75px;
+    padding-top: 16px;
+}
+
+.main-section-items{
+    padding-top: 12px;
+    padding-bottom: 36px;
+}
+
+.main-section-title{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.07;
+}
+
+.main-section-text{
+    font-size: 24px;
+    line-height: 1.4;
+    margin-top: 51px;
+    margin-right: 68px;
+}
+
+.buttons{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+}
+
+.second-button{
+    margin: 0;
+    margin-right: 5px;
+}
+
+.second-button{
+    padding: 0;
+    padding: 20px 29px;
+}
+
+.most-button.second-button{
+    padding: 0;
+    padding: 20px 41px;
+}
+
+.main-section-end{
+    margin: 0;
+    margin-top: 25px;
+}
+
+.main-section-img{
+    margin-top: 54px;
+    margin-bottom: 45px;
+}
