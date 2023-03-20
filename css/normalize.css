@@ -23,6 +23,8 @@
     --color-shadow: rgba(0, 0, 0, 0.3);
     --color-backgraund: #FF9C7D;
     --color-section-backgraund: #FFF8E4;
+    --color-section-person: #C9E8F2;
+    --color-section-rate: #DABC98;
 }
 
 * {
@@ -30,6 +32,10 @@
 }
 
 html, body {
+    margin: 0 auto;
+    padding: 0;
     font-weight: 400;
     font-family: 'Graphik LCG';
+    color: var(--color-title);
+    background-color: var(--color-main);
 }
