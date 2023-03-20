@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Graphik LCG';
     src: url('../fonts/GraphikLCG-Regular.woff2') format('woff2'),
-        url('../fonts/GraphikLCG-Regular.woff') format('woff');
+    url('../fonts/GraphikLCG-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -10,25 +10,26 @@
 @font-face {
     font-family: 'Graphik LCG';
     src: url('../fonts/GraphikLCG-Semibold.woff2') format('woff2'),
-        url('../fonts/GraphikLCG-Semibold.woff') format('woff');
+    url('../fonts/GraphikLCG-Semibold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
 
-:root{
+:root {
     --color-main: #fff;
     --color-title: #000;
     --color-brand: #FF6336;
     --color-shadow: rgba(0, 0, 0, 0.3);
     --color-backgraund: #FF9C7D;
+    --color-section-backgraund: #FFF8E4;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
-html,body{
+html, body {
     font-weight: 400;
     font-family: 'Graphik LCG';
 }
