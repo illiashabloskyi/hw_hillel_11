@@ -38,4 +38,5 @@ html, body {
     font-family: 'Graphik LCG';
     color: var(--color-title);
     background-color: var(--color-main);
+    min-width: 400px;
 }
