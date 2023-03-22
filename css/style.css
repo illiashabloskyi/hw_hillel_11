@@ -367,13 +367,18 @@ p a {
 }
 
 .section-person {
-  margin: 0 auto;
-  margin-top: 68px;
   background-color: var(--color-section-person);
+  margin-top: 68px;
+  padding: 110px 75px 105px;
+}
+
+.person-sub{
+  margin: 0 auto;
   display: flex;
   justify-content: center;
-  padding: 110px 75px 105px;
   flex-wrap: wrap;
+  flex-direction: row-reverse;
+  max-width: 1290px;
 }
 
 .person-title{
@@ -382,28 +387,32 @@ p a {
 }
 
 .person {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   max-width: 890px;
+  margin-right: 65px;
+  margin-left: 20px;
 }
 
 .person-text {
   font-size: 30px;
   line-height: 1.33;
-  max-width: 920px;
-  margin-top: 0;
-  margin-bottom: 0;
+  max-width: 890px;
+  margin-bottom: 28px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .person-offer {
   font-size: 15px;
   line-height: 1.66;
   margin-bottom: 7px;
-  margin-top: 28px;
   margin-right: 623px;
 }
 
 .man {
   max-width: 100%;
-  margin-left: 50px;
 }
 
 .section-rate {
