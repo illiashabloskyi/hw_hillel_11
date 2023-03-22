@@ -299,7 +299,7 @@ p a {
 
 .localise-item-text {
   text-align: center;
-  width: 324px;
+  max-width: 324px;
   font-size: 18px;
   line-height: 1.38;
 }
@@ -356,7 +356,7 @@ p a {
   margin-top: 34px;
   margin-bottom: 25px;
   text-align: left;
-  width: 409px;
+  max-width: 409px;
   margin-right: 30px;
 }
 
@@ -377,29 +377,33 @@ p a {
 }
 
 .person-title{
+  visibility: hidden;
   display: none;
 }
 
 .person {
-  width: 890px;
+  max-width: 890px;
 }
 
 .person-text {
-  margin-top: 0;
   font-size: 30px;
   line-height: 1.33;
-  margin-bottom: 24px;
+  max-width: 920px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .person-offer {
   font-size: 15px;
   line-height: 1.66;
   margin-bottom: 7px;
+  margin-top: 28px;
+  margin-right: 623px;
 }
 
 .man {
-  margin-left: 80px;
   max-width: 100%;
+  margin-left: 50px;
 }
 
 .section-rate {
