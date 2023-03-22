@@ -102,7 +102,7 @@ header {
   font-size: 24px;
   line-height: 1.4;
   margin-right: 68px;
-  width: 75%;
+  max-width: 75%;
 }
 
 .buttons {
@@ -124,12 +124,14 @@ header {
 }
 
 .main-section-end {
+  max-width: 369px;
   margin: 25px 0 0 0;
 }
 
 .main-section-img {
   margin-top: 54px;
   margin-bottom: 45px;
+  max-width: 50%;
 }
 
 .section-localization-tool {
@@ -304,29 +306,28 @@ p a {
   line-height: 1.38;
 }
 
-.section-about-us-team-title {
-  margin: 154px 0 75px;
+.section-about-us-team{
+  margin: 0 auto;
+  max-width: 1420px;
+  padding-bottom: 120px;
+}
+
+.about-us-team-title {
+  margin-top: 154px;
   font-weight: 600;
   font-size: 50px;
   line-height: 1.2;
-  text-align: center;
-}
-
-.section-about-us-team {
-  padding-left: 0;
-  padding-bottom: 120px;
+  max-width: 1287px;
+  margin-left: 40px;
 }
 
 .section-team {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-left: 200px;
+  padding: 0;
 }
 
-.section-team li {
-  margin-right: 30px;
-}
 
 .team-translators-img {
   margin-bottom: 58px;
