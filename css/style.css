@@ -20,19 +20,20 @@ header {
   flex-wrap: wrap;
 }
 
-.menu-link li {
-  display: inline-block;
-}
+
 
 .menu-link {
   display: flex;
   align-items: center;
   margin: 34px 51px;
+  flex-wrap: wrap;
 }
 
 .menu-link-items {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .menu-item {
@@ -41,19 +42,17 @@ header {
   line-height: 1.33;
 }
 
-.menu-button li {
-  display: inline-block;
-}
-
 .menu-button {
-  display: flex;
-  align-items: center;
   margin: 25px 51px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .menu-button-items {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .button-link {
